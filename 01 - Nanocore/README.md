@@ -71,7 +71,7 @@ The first part of the above code will perform the following actions in order:
 
 The first value that is read by the code will be 4 bytes (an Int32):
 
-![Key Size](./Image/rsrc_first_int32.png)
+![Key Size](./Image/rsrc_first_Int32.png)
 
 These four bytes, will be treated as an Integer and represent the size of the next value to read. “10 00 00 00” in little endian hexadecimal is “16” as an integer. The next step will be to read 16 bytes from the resource:
 
